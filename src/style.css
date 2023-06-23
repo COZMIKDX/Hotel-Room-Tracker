@@ -1,0 +1,32 @@
+.text-input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-input-box {
+  margin-right: 40px;
+}
+
+.log-area {
+  margin-top: 10px;
+}
+
+#log-list {
+  padding-left: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.log-entry {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgray;
+}
+
+.log-entry > * {
+  margin-right: 50px;
+}
+
+.log-entry > textarea {
+  rows: 1;
+}
