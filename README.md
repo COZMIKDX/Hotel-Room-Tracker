@@ -7,4 +7,4 @@ Instead of keeping track of this on paper and sending the housekeepers an unorde
 
 Because I used and probably will continue using codepen while making this, since I can work on it at work that way, this repo will contain two directories.
 
-The src directory is what is edited in codepen and the dist directory is for distribution and the html file has all the content codepen normally doesn't display such as theb `<head>` block.
+The src directory is what is edited in codepen and the dist directory is for distribution and the html file has all the content codepen normally doesn't display such as the `<head>` block.
