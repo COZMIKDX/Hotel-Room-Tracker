@@ -1,6 +1,18 @@
+.main-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.main-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .text-input-container {
   display: flex;
   flex-direction: row;
+  padding: 10px;
+  background-color: lightgrey;
+  border: solid 1px black;
 }
 
 .text-input-box {
@@ -11,16 +23,29 @@
   margin-top: 10px;
 }
 
-#log-list {
+.log-list {
   padding-left: 0px;
   margin-left: 10px;
   margin-top: 10px;
 }
 
+.log-list li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.log-list li:nth-child(even) {
+  background-color: #e3e3e3;
+}
+
 .log-entry {
   display: flex;
   flex-direction: row;
-  background-color: lightgray;
+  align-items: center;
+}
+
+.list-area {
+  display: flex;
+  flex-direction: column;
 }
 
 .log-entry > * {
@@ -29,4 +54,60 @@
 
 .log-entry > textarea {
   rows: 1;
+}
+
+.matrix-container {  
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: solid 1px black;
+  justify-content: center;
+}
+
+.matrix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.matrix-controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.matrix-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.matrix-cell {
+  border: solid 1px black;
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-size: 13px;
+  background-color: #ededed;
+}
+
+.matrix-cell p {
+  margin: 0px;
+  margin-top: 4px;
+}
+
+#editModeIndicator {
+  margin-left: 10px;
+}
+
+.ui-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.edit-mode-ui {
+  visibility: hidden;
 }

@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2023 COZMIKDX (https://codepen.io/cozmikdx/pen/PoxNMOZ)
+Copyright (c) 2023 COZMIKDX (https://codepen.io/cozmikdx/pen/VwVpwew)
+Fork of an original work room number tracker [ Room Matrix ] (https://codepen.io/cozmikdx/pen/VwVpwew)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

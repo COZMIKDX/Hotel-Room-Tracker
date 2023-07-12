@@ -1,15 +1,35 @@
 <div class="main-container">
-  <div class="text-input-container">
-    <textarea id="oldList" class="text-input-box" cols="5" rows="20"></textarea>
-    <textarea id="newList" class="text-input-box" cols="5" rows="20"></textarea>
+  <button id="testButton"> TEST </button>
+  <button id="testButton2"> TEST2 </button>
+  <div class="main-row"> 
+    <div class="text-input-container">
+      <textarea id="oldList" class="text-input-box" cols="5" rows="20"></textarea>
+      <textarea id="newList" class="text-input-box" cols="5" rows="20"></textarea>
+    
+      <div class="button-container">
+        <button id="oldButton">Add & Sort</button>
+        <button id="newButton">Sort</button>
+      </div>
+    </div>
+    <div class="matrix-container">
+      <div class="matrix"></div>
+      <div class="matrix-controls">
+        <div class="ui-row">
+          <button id="matrixEditButton">Edit Matrix</button>
+        
+          <div id="editModeIndicator" class="edit-mode-ui">Edit Mode Active</div>
+        </div>
+        <div class="ui-row edit-mode-ui">
+          <input id="setCheckoutInput" type="text" placeholder="Enter Due Outs using spaces to separate">
+          <button id=matrixSetButton>Set</button>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="button-container">
-    <button id="oldButton">Add & Sort</button>
-    <button id="newButton">Sort</button>
-  </div>
+  
   <div class="log-area">
     Log:<br>
-    <ul id="log-list">
+    <ul class="log-list">
     </ul>
   </div>
 </div>
